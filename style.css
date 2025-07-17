@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;;
+}
+
+.nav{
+    width: 50%;
+}
+.nav-prin{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100%;
+    height:70px ;
+    margin-right: 5rem;
+    
+}
+
+.nav_bar{
+    display: flex;
+    gap: 20px;
+    padding-right: 5rem;
+}
+
+.nav_bar a{
+    color: rgb(232, 232, 232);
+}
+
+.logo{
+    color: white;
+    font-size: 33px;
+    font-family: "Manufacturing Consent", system-ui;
+    position: relative;
+    right:23rem;
+    
+}
+
+.header{
+    background-image: url(imagem/capa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh ;
+}
+
+
+
