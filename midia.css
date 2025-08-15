@@ -1,5 +1,17 @@
-@media screen and (max-width : 600px){
+@media screen and (max-width : 605px){
     .menu{
+        display: none;
+    }
+
+    .insta, .whats{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 758px){
+    .item{
         display: none;
     }
 }
